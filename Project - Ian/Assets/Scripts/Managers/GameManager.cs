@@ -77,7 +77,7 @@ public class GameManager : MonoBehaviour
 		//If the game over text UI element exists, turn it on
 		if(gameoverText != null)
 			gameoverText.enabled = true;
-        if (score >= 1000) myButton.gameObject.SetActive(true);   //If the score is greater than or equal to 1000, allow them to switch levels.
+        if (score >= 250) myButton.gameObject.SetActive(true);   //If the score is greater than or equal to 1000, allow them to switch levels.
 	}
 
 	//Called from the PlayerHealth script when the player is done playing their death animation

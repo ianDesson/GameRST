@@ -480,7 +480,7 @@ GameObject:
   - component: {fileID: 195115940607587544}
   - component: {fileID: 114251916572488436}
   - component: {fileID: 114646779523233640}
-  - component: {fileID: 114744448530332394}
+  - component: {fileID: 114981591074753984}
   m_Layer: 9
   m_Name: DungeonSkeleton
   m_TagString: Untagged
@@ -1202,14 +1202,14 @@ MonoBehaviour:
   deathEffectTime: 2
   deathClip: {fileID: 8300000, guid: 8c615fd0429f34edf85539d70279360d, type: 3}
   hurtClip: {fileID: 8300000, guid: fce027b40770a44298a6f5a4233bfb04, type: 3}
-  enemyAttack: {fileID: 114744448530332394}
+  enemyAttack: {fileID: 0}
   enemyMovement: {fileID: 114251916572488436}
   animator: {fileID: 95548373039874046}
   audioSource: {fileID: 82266431817321976}
   capsuleCollider: {fileID: 136346201566690510}
   hitParticles: {fileID: 198987986034012972}
   isInvulnerable: 0
---- !u!114 &114744448530332394
+--- !u!114 &114981591074753984
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1217,12 +1217,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1897402926337550}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc28e8f7dbbe7494a8d67b6f5f3636bc, type: 3}
+  m_Script: {fileID: 11500000, guid: 75c2283090221cd4eb9e5a8e4bf0b5d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   SlimeDebuff: {fileID: 0}
-  timeBetweenAttacks: 1
-  attackDamage: 50
+  timeBetweenAttacks: 0.5
+  attackDamage: 10
   animator: {fileID: 95548373039874046}
 --- !u!135 &135083212319557452
 SphereCollider:
